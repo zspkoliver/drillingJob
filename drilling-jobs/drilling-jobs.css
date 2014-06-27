@@ -1,0 +1,308 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 12px;
+    font-size: 1.2rem;
+    font-family: Arial, sans-;
+}
+
+p {
+    font-size: 14px;
+    font-size: 1.4rem;
+}
+
+ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+em {
+    font-size: 12px;
+    font-size: 1.2rem;
+}
+
+hr {
+    border-top: 1px solid #ccc;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    transition: opacity .2s linear;
+}
+
+.h_line {
+    border-top: 1px solid #e2e2e2;
+}
+
+/* Banner*/
+.dj-header {
+    position: relative;
+    background: url("images/dj-banner-bg.jpg") no-repeat;
+    background-size: cover;
+    min-height: 633px;
+    width: 100%;
+}
+
+.dj-logo-wrap {
+    padding-top: 10px;
+}
+
+.dj-logo img {
+    max-width: 130px;
+    width: 100%;
+    height: auto;
+}
+
+.free-icon img {
+    max-width: 122px;
+    width: 100%;
+    height: auto;
+}
+
+.dj-banner-wrap {
+    width: 100%;
+}
+
+.dj-banner {
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 70px 0;
+}
+
+.dj-banner img {
+    max-width: 288px;
+    width: 100%;
+    height: auto;
+}
+
+.dj-app-banner-intro h1 {
+    color: #fff;
+    font-weight: bold;
+    margin: 30px 0;
+    font-size: 40px;
+    font-size: 4.0rem;
+}
+
+.dj-app-banner-intro p {
+    color: #fff;
+    font-weight: normal;
+    font-size: 20px;
+    font-size: 2.0rem;
+}
+
+.dj-app-banner-intro h3 {
+    font-size: 2rem;
+    color: #77e442;
+}
+
+.dj-ios-download-btn {
+    background: url("images/dj-download-buttons-ios.png") no-repeat;
+    width: 135px;
+    height: 40px;
+    float: left;
+    margin-right: 20px;
+    display: block;
+}
+
+.dj-adnroid-download-btn {
+    background: url("images/dj-download-buttons-android.png") no-repeat;
+    width: 135px;
+    height: 40px;
+    float: left;
+    display: block;
+}
+
+/* 10 Latest Jobs*/
+.dj-jobs-list-wrap {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #eee;
+}
+
+.dj-jobs-list-wrap h1 {
+    margin-bottom: 20px;
+}
+
+.dj-jobs-list .description {
+    overflow: hidden;
+    white-space: nowrap;
+    word-wrap: break-word;
+    height: 30px;
+    font-size: 1.4rem;
+    text-overflow: ellipsis;
+
+}
+
+.dj-jobs-list h4 {
+    font-size: 1.8rem;
+    color: #0088cc;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.dj-jobs-list .date {
+    margin-top: 8px;
+}
+
+.dj-total-numbers h4 {
+    color: #5fb336;
+    font-size: 1.6rem;
+    margin: 10px 0 0;
+}
+
+.dj-total-numbers strong {
+    font-size: 2.0rem;
+    /*color: #000;*/
+}
+
+.dj-total-numbers hr {
+    border-top: 1px solid #e2e2e2;
+    margin: 10px 0;
+}
+
+/* Feature */
+.dj-feature-wrap {
+    margin-top: 50px;
+}
+
+.dj-feature-item {
+    text-align: center;
+    margin: 100px 0;
+}
+
+.dj-feature-item h4 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #7bbe5e;
+    font-size: 3.0rem;
+}
+
+.dj-feature-item p {
+    color: #64696c;
+    font-size: 2.0rem;
+}
+
+/*Footer*/
+.dj-footer {
+    border-top: 1px solid #eee;
+    background-color: #f4f4f4;
+    padding: 20px 0 20px;
+}
+
+.dj-footer .links {
+    float: left;
+    margin-right: 63px;
+}
+
+.dj-footer h1 {
+    color: #57a531;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.dj-footer .copyright {
+    color: #666;
+    margin-top: 30px;
+    font-size: 1.3rem;
+}
+
+.dj-footer li a {
+    color: #666;
+    height: 26px;
+    display: block;
+    font-size: 1.3rem;
+    font-style: normal
+}
+
+.dj-footer li a:hover {
+    color: #428bca;
+}
+
+.other-app .other-app-1 {
+    background: url("images/other-app-icon-1.png") no-repeat;
+    padding-left: 22px;
+}
+
+.other-app .other-app-2 {
+    background: url("images/other-app-icon-2.png") no-repeat;
+    padding-left: 22px;
+}
+
+.other-app .other-app-3 {
+    background: url("images/other-app-icon-3.png") no-repeat;
+    padding-left: 22px;
+}
+
+.other-app .other-app-4 {
+    background: url("images/other-app-icon-4.png") no-repeat;
+    padding-left: 22px;
+}
+
+
+@media (max-width: 767px) {
+    .dj-header {
+        background-image: none;
+    }
+
+    .dj-app-banner-intro h1 {
+        color: #2cacfb;
+        text-align: center;
+        font-weight: bold;
+        margin: 30px 0;
+        font-size: 3.6rem;
+    }
+
+    .dj-app-banner-intro p {
+        color: #333;
+        text-align: center;
+        font-weight: normal;
+        font-size: 2rem;
+    }
+
+    .dj-app-banner-intro h3 {
+        margin-top:50px;
+        margin-bottom:20px ;
+        text-align: center;
+        font-size: 2.0rem;
+        color: #77e442;
+    }
+
+    .dj-total-numbers{
+        margin-top: 30px;
+    }
+
+    .display{
+        display: block !important;
+    }
+
+    .download-buttons{
+        margin-top: 30px;
+    }
+
+    .dj-ios-download-btn {
+        background: url("images/dj-download-buttons-ios-xs.png") no-repeat;
+        width: 240px;
+        height: 71px;
+        margin-bottom: 20px;
+    }
+
+    .dj-adnroid-download-btn {
+        background: url("images/dj-download-buttons-android-xs.png") no-repeat;
+        width: 240px;
+        height: 71px;
+    }
+
+    .dj-header-top{
+        background-color: #f4f4f4;
+        border-bottom: 1px solid #eee;
+    }
+
+    .dj-jobs-list-wrap {
+        border-top: 1px solid #eee;
+    }
+
+}
